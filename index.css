@@ -1,0 +1,48 @@
+html, body {
+    background-color: rgb(228, 224, 182);
+    font-family: "Georgia", serif;
+    margin: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+/* Linkide kujundused*/
+a:link {
+    color: rgb(66, 66, 66) /* Algselt on kodulehe link tumehall. */
+}
+
+a:visited {
+    color: rgb(56, 46, 35); /* Kui kodulehte on külastatud, muutub link pruuniks. */
+}
+
+a:hover {
+    color: black; /* Kui hiir on lingi peal, on tekst must. */
+}
+
+a:active {
+    color: darkgreen; /* Kui lingile klikkida (ehk teha aktiivseks), muutub link tumeroheliseks. */
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(74, 54, 25);
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(153, 128, 58);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(228, 173, 85);
+}
+
+p, li {
+    font-size: 20px;
+    color:rgb(29, 24, 19)
+}
+
+.sisukord {
+    text-align: right;
+}
