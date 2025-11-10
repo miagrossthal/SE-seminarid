@@ -18,7 +18,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
+  align-items: normal;
   height: 100%;
   width: 100%;
 }
