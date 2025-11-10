@@ -41,7 +41,10 @@ h3 {
 
 p, li, td {
     font-size: 25px;
-    color:rgb(56, 6, 40)
+    color:rgb(56, 6, 40);
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 ul {
@@ -52,6 +55,14 @@ ul {
     text-align: right;
 }
 
+table {
+  border: 3px solid #333;
+}
+
 th {
     color: rgb(99, 26, 90);
+}
+
+td {
+    text-align: center;
 }
