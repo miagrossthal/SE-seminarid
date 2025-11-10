@@ -6,11 +6,48 @@ html, body {
     font-size: 25px;
 }
 
-.main-osa {
-    column-count: 2;
-    column-gap: 2rem;
-    padding: 1rem;
-    line-height: 1.5;
+.sisukord {
+    text-align: right;
+}
+
+/* Linkide kujundused*/
+a:link {
+    color: rgb(121, 0, 111) /* Algselt on kodulehe link tumelilla. */
+}
+
+a:visited {
+    color: rgb(67, 35, 1); /* Kui kodulehte on külastatud, muutub link pruuniks. */
+}
+
+a:hover {
+    color: black; /* Kui hiir on lingi peal, on tekst must. */
+}
+
+a:active {
+    color: rgb(74, 253, 74); /* Kui lingile klikkida (ehk teha aktiivseks), muutub link erkroheliseks. */
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(170, 2, 75);
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(93, 29, 74);
+}
+
+h3 {
+    font-size: 20px;
+    color: rgb(122, 38, 111);
+}
+
+p, li, td {
+    font-size: 25px;
+    color:rgb(56, 6, 40);
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 /* liikuv pilt */
@@ -56,57 +93,23 @@ html, body {
   height: auto;
 }
 
-/* Linkide kujundused*/
-a:link {
-    color: rgb(121, 0, 111) /* Algselt on kodulehe link tumelilla. */
+.main-osa {
+    display: flex;
+    gap: 100px;
 }
 
-a:visited {
-    color: rgb(67, 35, 1); /* Kui kodulehte on külastatud, muutub link pruuniks. */
-}
-
-a:hover {
-    color: black; /* Kui hiir on lingi peal, on tekst must. */
-}
-
-a:active {
-    color: rgb(74, 253, 74); /* Kui lingile klikkida (ehk teha aktiivseks), muutub link erkroheliseks. */
-}
-
-h1 {
-    font-size: 35px;
-    color: rgb(170, 2, 75);
-}
-
-h2 {
-    font-size: 25px;
-    color: rgb(93, 29, 74);
-}
-
-h3 {
-    font-size: 20px;
-    color: rgb(122, 38, 111);
-}
-
-p, li, td {
-    font-size: 25px;
-    color:rgb(56, 6, 40);
-    font-family: "Times New Roman", Times, serif;
-    letter-spacing: 1px;
-    text-align: justify;
+.eraldi-osad {
+    flex: 1;
 }
 
 ul {
     list-style-type: square;
 }
 
-.sisukord {
-    text-align: right;
-}
-
 /* tabeli kujundus */
 table {
   border: 3px solid #333;
+  width: 100%;
 }
 
 th {
@@ -115,4 +118,21 @@ th {
 
 td {
     text-align: center;
+}
+
+/* piltide kujundused */
+.tolmu {
+    width: 450px;
+}
+
+.nord {
+    width: 300px;
+}
+
+.step {
+    width: 400px;
+}
+
+.piibeleht {
+    width: 400px;
 }
